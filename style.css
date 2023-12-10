@@ -45,6 +45,7 @@ body,html{
  align-items: center;
  justify-content: space-between;
  flex-direction: column;
+ z-index: 10;
 
 }
 nav{
@@ -69,4 +70,20 @@ nav h3{
  font-family: rejouice;
 
 
+}
+#cursor{
+ width: 7.5vw;
+ height: 7.5vw;
+ border-radius: 50%;
+ background-color: #ff5f38;
+ position: fixed;
+ z-index: 9;
+ display: flex;
+align-items: center;
+justify-content: center;
+transform: translate(-50%,-50%);
+}
+#cursor h5{
+ font: 4vw;
+ color: #fff;
 }
