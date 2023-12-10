@@ -3,6 +3,12 @@
  font-family: nb;
  src: url(./NBInternationalProBoo.ttf);
 }
+@font-face {
+ font-family: rejouice;
+
+ src: url(./Rejouice-Headline.ttf);
+
+}
 
 *{
  margin: 0px;
@@ -57,4 +63,10 @@ nav h3{
 
 nav h3{
  font-size: 1.4vw
+}
+.page1-content h1{
+ font-size: 25vw;
+ font-family: rejouice;
+
+
 }
