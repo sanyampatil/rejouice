@@ -1,0 +1,23 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+
+}
+
+body,html{
+ width: 100%;
+ height: 100%;
+
+}
+#page1{
+ height: 100vh;
+ width: 100%;
+ position: relative;
+ background-color: #dadada;
+}
+#page1 video{
+ height: 100%;
+ width: 100%;
+ object-fit: cover;
+}
