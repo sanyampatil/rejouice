@@ -1,7 +1,14 @@
+
+@font-face{
+ font-family: nb;
+ src: url(./NBInternationalProBoo.ttf);
+}
+
 *{
  margin: 0px;
  padding: 0px;
  box-sizing: border-box;
+ font-family: nb;
 
 }
 
@@ -20,4 +27,34 @@ body,html{
  height: 100%;
  width: 100%;
  object-fit: cover;
+ position: absolute;
+}
+.page1-content{
+ width: 100%;
+ height: 100%;
+ background-color:rgba(52, 20, 20, 0.304);
+ position: relative;
+ color: #fff;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ flex-direction: column;
+
+}
+nav{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 100%;
+ /* background-color: red; */
+ padding: 2vw 3vw;
+
+}
+nav h3{
+
+ font-size: 1.4vw
+}
+
+nav h3{
+ font-size: 1.4vw
 }
